@@ -1,0 +1,26 @@
+@font-face{
+    font-family: Playfair Display;
+    src: local('Playfair Display');
+  }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 0 68px 0 70px;
+    height: 674.91px;
+    display: flex;
+
+    .header-right{
+        font-family: Myfont;
+    ;
+    }
+    
+    p{
+        font-family: Playfair Display;
+        font-size: 14pt;
+        display: flex;
+    }
+}

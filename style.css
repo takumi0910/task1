@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face{
+  font-family: Playfair Display,Inconsolata,Ubuntu;
+  src: local('Playfair Display ');
+  src: local('Inconsolata');
+  src: local('Ubuntu light');
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 0 68px 0 70px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 667.38px;
+}
+
+.header .header-left p{
+  font-family: Inconsolata;
+  font-size: 30pt;
+  margin: 70px 0 0 0;
+}
+
+.header .header-right{
+  font-family: Playfair Display;
+  font-size: 14pt;
+  display: flex;
+}
+
+.header-right :first-child{
+  margin: 75px 110px 0 366px;
+}
+
+.header-right :nth-child(2){
+  margin: 75px 0 0 0;
+}
+
+.header-right :nth-child(3){
+  margin: 75px 94px 0 70px;
+}
+
+.header-right :nth-child(4){
+  margin: 75px 0 0 0 ;
+}
+
+.main p{
+  font-family: Ubuntu;
+  color: #b4ad9e;
+}
+
+.main .main-words{
+  color: black;
+}
