@@ -1,9 +1,13 @@
 @font-face {
-  font-family: Playfair Display, Inconsolata, Ubuntu;
-  src: local('Playfair Display', serif);
-  src: local('Inconsolata');
-  src: local('Ubuntu light');
+  font-family: 'font1';
+  src: local('Playfair Display')[regular];
 }
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu');
+}
+
 
 body {
   margin-top: 1px;
@@ -14,51 +18,52 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  margin: 0 68px 0 70px;
-  display: flex;
-  flex-wrap: wrap;
+.introduction-title {
+  margin: 0 165px 0 150px;
 }
 
-.header .header-left img {
-  margin: 69px 109px 0 0;
-  display: inline-block;
-}
-
-.header .header-right {
-  font-family: Playfair Display;
+.introduction-title p {
   font-size: 14pt;
-  display: flex;
+  display: inline-block;
+  height: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Ubuntu';
 }
 
-.header-right :first-child {
-  margin: 75px 0 48px 241px;
-  width: 113px;
-  height: 42px;
-  display: inline-block;
-  text-align: center;
+.introduction-title h1 {
+  font-size: 30pt;
+  height: 65px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Playfair Display';
 }
 
-.header-right :nth-child(2) {
-  margin: 75px 0 0 87px;
-  width: 113px;
-  height: 42px;
-  display: inline-block;
-  text-align: center;
+.introduction-sentence1 {
+  margin: 0 165px 0 150px;
 }
 
-.header-right :nth-child(3) {
-  margin: 75px 0 0 56px;
-  width: 113px;
-  height: 42px;
-  display: inline-block;
-  text-align: center;
+.introduction-sentence1 p {
+  font-size: 14pt;
+  font-family: 'Playfair Display';
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.header-right :nth-child(4) {
-  margin: 75px 0 0 28px;
-  width: 83px;
-  height: 42px;
-  display: inline-block;
-  text-align: center;
+.introduction-sentence2 {
+  margin: 0 150px 0 150px;
 }
+
+.introduction-sentence2 p {
+  font-size: 14pt;
+  font-family: 'Playfair Display';
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.introduction-comment {
+  margin: 0 165px 0 150px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
