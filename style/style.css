@@ -67,4 +67,58 @@ body {
   margin: 48px 165px 0 150px;
 }
 
+.content-row-1{
+  display: flex;
+  margin: 124px 148px 0 115px;
+}
+
+.content-left-1 img{
+  padding: 0 31px 0 35px;
+}
+
+.content-left-1 :nth-child(2){
+  margin-top: 31px;
+  font-size: 14px;
+  font-family: 'Ubuntu Light';
+  margin-left: 35px;
+}
+
+.content-left-1 h3 {
+  margin-top: 15px;
+  height: 65px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+  margin-left: 35px;
+}
+
+.content-left-1 :nth-child(4){
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  margin-left: 35px;
+  width: 420px;
+}
+
+.content-right-1{
+  margin: 0 3px 0 40px;
+}
+
+.content-right-1 :nth-child(2){
+  margin-top: 33px;
+  margin-left: 1px;
+  font-size: 14px;
+  font-family: 'Ubuntu Light';
+}
+
+.content-right-1 h3 {
+  margin-top: 13px;
+  height: 65px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+}
+
+.content-right-1 :nth-child(4){
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  width: 420px;
+}
 
