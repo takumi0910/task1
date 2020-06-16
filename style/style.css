@@ -1,11 +1,11 @@
-@font-face{
-  font-family: Playfair Display,Inconsolata,Ubuntu;
-  src: local('Playfair Display ');
+@font-face {
+  font-family: Playfair Display, Inconsolata, Ubuntu;
+  src: local('Playfair Display', serif);
   src: local('Inconsolata');
   src: local('Ubuntu light');
 }
 
-body{
+body {
   margin-top: 1px;
 }
 
@@ -15,45 +15,50 @@ body{
 }
 
 .header {
-  padding: 0 68px 0 70px;
+  margin: 0 68px 0 70px;
   display: flex;
   flex-wrap: wrap;
-  height: 667.38px;
 }
 
-.header .header-left p{
-  font-family: Inconsolata;
-  font-size: 30pt;
-  margin: 70px 0 0 0;
+.header .header-left img {
+  margin: 69px 109px 0 0;
+  display: inline-block;
 }
 
-.header .header-right{
+.header .header-right {
   font-family: Playfair Display;
   font-size: 14pt;
   display: flex;
 }
 
-.header-right :first-child{
-  margin: 75px 110px 0 366px;
+.header-right :first-child {
+  margin: 75px 0 48px 241px;
+  width: 113px;
+  height: 42px;
+  display: inline-block;
+  text-align: center;
 }
 
-.header-right :nth-child(2){
-  margin: 75px 0 0 0;
+.header-right :nth-child(2) {
+  margin: 75px 0 0 87px;
+  width: 113px;
+  height: 42px;
+  display: inline-block;
+  text-align: center;
 }
 
-.header-right :nth-child(3){
-  margin: 75px 94px 0 70px;
+.header-right :nth-child(3) {
+  margin: 75px 0 0 56px;
+  width: 113px;
+  height: 42px;
+  display: inline-block;
+  text-align: center;
 }
 
-.header-right :nth-child(4){
-  margin: 75px 0 0 0 ;
-}
-
-.main p{
-  font-family: Ubuntu;
-  color: #b4ad9e;
-}
-
-.main .main-words{
-  color: black;
+.header-right :nth-child(4) {
+  margin: 75px 0 0 28px;
+  width: 83px;
+  height: 42px;
+  display: inline-block;
+  text-align: center;
 }
