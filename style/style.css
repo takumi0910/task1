@@ -4,6 +4,11 @@
   src: local('Inconsolata');
   src: local('Ubuntu light');
 }
+
+body{
+  margin-top: 1px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
