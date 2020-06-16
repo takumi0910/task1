@@ -8,7 +8,6 @@
   src: local('Ubuntu Light');
 }
 
-
 body {
   margin-top: 1px;
 }
@@ -61,22 +60,22 @@ body {
   margin-bottom: 0;
 }
 
-.introduction-comment h3{
+.introduction-comment h3 {
   font-family: 'Playfair Display';
   font-size: 14px;
   margin: 48px 165px 0 150px;
 }
 
-.content-row-1{
+.content-row-1 {
   display: flex;
   margin: 124px 148px 0 115px;
 }
 
-.content-left-1 img{
+.content-left-1 img {
   padding: 0 31px 0 35px;
 }
 
-.content-left-1 :nth-child(2){
+.content-left-1 :nth-child(2) {
   margin-top: 31px;
   font-size: 14px;
   font-family: 'Ubuntu Light';
@@ -91,18 +90,18 @@ body {
   margin-left: 35px;
 }
 
-.content-left-1 :nth-child(4){
+.content-left-1 :nth-child(4) {
   font-family: 'Playfair Display';
   font-size: 14px;
   margin-left: 35px;
   width: 420px;
 }
 
-.content-right-1{
+.content-right-1 {
   margin: 0 3px 0 40px;
 }
 
-.content-right-1 :nth-child(2){
+.content-right-1 :nth-child(2) {
   margin-top: 33px;
   margin-left: 1px;
   font-size: 14px;
@@ -116,9 +115,63 @@ body {
   font-family: 'Playfair Display';
 }
 
-.content-right-1 :nth-child(4){
+.content-right-1 :nth-child(4) {
   font-family: 'Playfair Display';
   font-size: 14px;
   width: 420px;
 }
 
+.content-row-2 {
+  display: flex;
+  margin: 71px 150px 0 143px;
+}
+
+.content-left-2 img {
+  padding: 0 60px 0 7px;
+  margin-top: 34px;
+}
+
+.content-left-2 :nth-child(2) {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: 'Ubuntu Light';
+  margin-left: 7px;
+}
+
+.content-left-2 h3 {
+  margin-top: 19px;
+  height: 65px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+  margin-left: 7px;
+}
+
+.content-left-2 :nth-child(4) {
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  margin-left: 7px;
+  width: 420px;
+}
+
+.content-right-2 {
+  margin-top: 41px;
+}
+
+.content-right-2 :nth-child(2) {
+  margin-top: 24px;
+  font-size: 14px;
+  font-family: 'Ubuntu Light';
+}
+
+.content-right-2 h3 {
+  margin-top: 11px;
+  height: 65px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+}
+
+.content-right-2 :nth-child(4) {
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  width: 420px;
+}
