@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'font1';
-  src: local('Playfair Display')[regular];
+  src: local('Playfair Display');
 }
 
 @font-face {
-  font-family: 'Ubuntu';
-  src: local('Ubuntu');
+  font-family: 'font2';
+  src: local('Ubuntu Light');
 }
 
 
@@ -23,16 +23,16 @@ body {
 }
 
 .introduction-title p {
-  font-size: 14pt;
+  font-size: 14px;
   display: inline-block;
   height: 40px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu Light';
 }
 
 .introduction-title h1 {
-  font-size: 30pt;
+  font-size: 30px;
   height: 65px;
   margin-top: 0;
   margin-bottom: 0;
@@ -44,7 +44,7 @@ body {
 }
 
 .introduction-sentence1 p {
-  font-size: 14pt;
+  font-size: 14px;
   font-family: 'Playfair Display';
   margin-top: 0;
   margin-bottom: 0;
@@ -55,15 +55,16 @@ body {
 }
 
 .introduction-sentence2 p {
-  font-size: 14pt;
+  font-size: 14px;
   font-family: 'Playfair Display';
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.introduction-comment {
-  margin: 0 165px 0 150px;
-  margin-top: 0;
-  margin-bottom: 0;
+.introduction-comment h3{
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  margin: 48px 165px 0 150px;
 }
+
 
