@@ -67,7 +67,7 @@ body {
   text-align: center;
 }
 
-.main{
+.main {
   margin-top: 96px;
 }
 
@@ -245,7 +245,7 @@ body {
   margin-top: 106px;
   height: 287px;
   width: 1200px;
-  background-color:rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
 }
 
 .submit h2 {
@@ -361,7 +361,7 @@ body {
   margin: 1370px 0 2px 0;
   font-family: 'Playfair Display';
   font-size: 14px;
-  background-color:rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
 }
 
 .footer-left {
