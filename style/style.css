@@ -268,4 +268,19 @@ body {
   margin: 0;
 }
 
+.Load-button{
+  margin: 149px 520px 0 516px;
+}
+
+.btn{
+  width: 164px;
+  height: 60px;
+  padding: 1px 0 0 0;
+  border: solid 1px black;
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Playfair Display';
+  text-align: center;
+}
+
 
