@@ -176,14 +176,14 @@ body {
   width: 420px;
 }
 
-.submit{
+.submit {
   margin-top: 106px;
   height: 287px;
   width: 1200px;
   background-color: aqua;
 }
 
-.submit h2{
+.submit h2 {
   margin: 73px 308px 0 303px;
   width: 590px;
   text-align: center;
@@ -192,18 +192,18 @@ body {
   display: inline-block;
 }
 
-.submit p{
+.submit p {
   margin: 73px 0 0 404px;
   font-family: 'Playfair Display';
   font-size: 14px;
   display: inline-block;
 }
 
-.submit img{
+.submit img {
   margin: 73px 0 0 196px;
 }
 
-.submit :nth-child(4){
+.submit :nth-child(4) {
   margin: 14px 401px 0 401px;
 }
 
@@ -268,11 +268,11 @@ body {
   margin: 0;
 }
 
-.Load-button{
+.Load-button {
   margin: 149px 520px 0 516px;
 }
 
-.btn{
+.btn {
   width: 164px;
   height: 60px;
   padding: 1px 0 0 0;
@@ -283,4 +283,54 @@ body {
   text-align: center;
 }
 
+.footer {
+  width: 1200px;
+  display: flex;
+  margin: 1370px 0 2px 0;
+  font-family: 'Playfair Display';
+  font-size: 14px;
+}
 
+.footer-left {
+  display: flex;
+}
+
+.footer-left p {
+  margin: 40px 17px 45px 150px;
+}
+
+.footer-left :nth-child(2) {
+  margin: 40px 0 42px 0;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right p {
+  margin: 40px 0 45px 639px;
+  height: 15.4px;
+}
+
+.icon{
+  display: flex;
+  margin-top: 40px;
+}
+
+.icon :first-child {
+  width: 8px;
+  height: 14px;
+  margin: 0 17px 42px 22px;
+}
+
+.icon :nth-child(2){
+  width: 18px;
+  height: 13px;
+  margin: 0 18px 44px 0; 
+}
+
+.icon :nth-child(3){
+  width: 15px;
+  height: 15px;
+  margin: 0 71px 44px 0;
+}
