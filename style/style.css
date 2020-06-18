@@ -179,6 +179,8 @@ body {
 .submit{
   margin-top: 106px;
   height: 287px;
+  width: 1200px;
+  background-color: aqua;
 }
 
 .submit h2{
@@ -204,4 +206,66 @@ body {
 .submit :nth-child(4){
   margin: 14px 401px 0 401px;
 }
+
+.content-row-3 {
+  display: flex;
+  margin: 102px 134px 0 150px;
+}
+
+.content-left-3 img {
+  padding: 0 0 0 2px;
+}
+
+.content-left-3 :nth-child(2) {
+  margin: 31px 0 0 2px;
+  font-size: 14px;
+  font-family: 'Ubuntu Light';
+  height: 28px;
+}
+
+.content-left-3 h3 {
+  margin-top: 13px;
+  margin-bottom: 0;
+  height: 41.5px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+  margin-left: 2px;
+}
+
+.content-left-3 :nth-child(4) {
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  margin: 25px 0 0 2px;
+}
+
+.content-right-3 {
+  margin: 0 0 0 60px;
+}
+
+.content-right-3 img {
+  margin: 0 0 0 0;
+}
+
+.content-right-3 :nth-child(2) {
+  margin-top: 31px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-family: 'Ubuntu Light';
+  height: 25.5px;
+}
+
+.content-right-3 h3 {
+  margin-top: 15px;
+  margin-bottom: 0;
+  height: 65px;
+  font-size: 30px;
+  font-family: 'Playfair Display';
+}
+
+.content-right-3 :nth-child(4) {
+  font-family: 'Playfair Display';
+  font-size: 14px;
+  margin: 0;
+}
+
 
